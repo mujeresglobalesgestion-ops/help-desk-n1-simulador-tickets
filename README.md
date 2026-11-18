@@ -17,7 +17,7 @@ Practicar la recepción, el diagnóstico inicial, la documentación, el seguimie
 6. Registrar resultado y confirmar con el usuario antes del cierre.
 
 ## Estado del proyecto
-**En desarrollo.** Hay dos guiones documentados, pero **no se han ejecutado pruebas técnicas reales ni validado resoluciones**. Los resultados indicados son resultados de documentación, no de atención real.
+**En desarrollo.** Hay un caso enlazado en este índice, pero **no se han ejecutado pruebas técnicas reales ni validado resoluciones**. Los resultados indicados son resultados de documentación, no de atención real.
 
 ## Próximas validaciones
 - Practicar la interacción completa de los tickets.
