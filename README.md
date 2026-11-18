@@ -30,7 +30,6 @@ flowchart TD
 | ID | Escenario | Documentación | Simulación interactiva |
 |---|---|---|---|
 | [TICKET-001](casos/TICKET-001-acceso-aplicacion.md) | Acceso a aplicación | Preparada | Pendiente |
-| TICKET-002 | Segundo caso por definir | Pendiente | Pendiente |
 
 ## 🎯 Competencias demostrables
 Comunicación escrita · preguntas de diagnóstico · registro ITSM básico · manejo de prioridades · seguridad de datos · criterios de escalamiento.
