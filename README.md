@@ -7,7 +7,6 @@ Practicar la recepción, el diagnóstico inicial, la documentación, el seguimie
 
 ## Casos documentados
 - [TICKET-001 — Acceso a aplicación corporativa](casos/TICKET-001-acceso-aplicacion.md)
-- [TICKET-002 — Equipo Windows lento](casos/TICKET-002-equipo-lento.md)
 
 ## Método de trabajo
 1. Recibir y describir el síntoma.
