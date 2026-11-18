@@ -1,29 +1,42 @@
-# Simulador de tickets — Help Desk / Service Desk N1
+# 🎫 Simulador de tickets | Help Desk N1
 
-Portafolio de aprendizaje orientado a soporte de primer nivel en entornos corporativos. **Todos los usuarios, servicios y tickets son ficticios.** No son procedimientos internos de NTT DATA ni evidencia de experiencia laboral técnica.
+**Portafolio práctico de aprendizaje · Atención por chat y correo · Nivel inicial**
 
-## Objetivo
-Practicar la recepción, el diagnóstico inicial, la documentación, el seguimiento y los criterios de escalamiento de solicitudes por chat o correo.
+![Estado](https://img.shields.io/badge/Estado-En%20desarrollo-f59e0b) ![Modalidad](https://img.shields.io/badge/Modalidad-Simulaci%C3%B3n-2563eb) ![Nivel](https://img.shields.io/badge/Nivel-Help%20Desk%20N1-64748b)
 
-## Casos documentados
-- [TICKET-001 — Acceso a aplicación corporativa](casos/TICKET-001-acceso-aplicacion.md)
+> **Propósito:** demostrar cómo se recibe, clasifica, documenta y deriva una solicitud de soporte, con comunicación profesional y trazabilidad. Los escenarios son ficticios y no constituyen experiencia laboral ni procedimientos internos de una empresa.
 
-## Método de trabajo
-1. Recibir y describir el síntoma.
-2. Determinar alcance e impacto con preguntas claras.
-3. Registrar verificaciones autorizadas y evidencias.
-4. Comunicar próximos pasos.
-5. Resolver solo si hay evidencia y autorización; de lo contrario, escalar.
-6. Registrar resultado y confirmar con el usuario antes del cierre.
+## 🧭 Navegación
+| Sección | Contenido |
+|---|---|
+| [Caso TICKET-001](casos/TICKET-001-acceso-aplicacion.md) | Problema de acceso a una aplicación corporativa |
+| [Guía de práctica](PRACTICA.md) | Cómo realizar y evaluar una simulación completa |
+| [Diagnóstico técnico](https://github.com/mujeresglobalesgestion-ops/help-desk-n1-diagnostico-tecnico) | Proyecto independiente con pruebas de Windows y conectividad |
 
-## Estado del proyecto
-**En desarrollo.** Hay un caso enlazado en este índice, pero **no se han ejecutado pruebas técnicas reales ni validado resoluciones**. Los resultados indicados son resultados de documentación, no de atención real.
+## 🔄 Flujo de atención
 
-## Próximas validaciones
-- Practicar la interacción completa de los tickets.
-- Registrar observaciones y decisiones de cada caso.
-- Añadir evidencia técnica real, anonimizada, cuando exista.
-- Revisar claridad, seguridad y criterios de escalamiento.
+```mermaid
+flowchart TD
+ A[Solicitud por chat o correo] --> B[Registrar síntoma e impacto]
+ B --> C[Preguntas de diagnóstico]
+ C --> D{¿Solución segura y autorizada?}
+ D -->|Sí| E[Verificar resultado con el usuario]
+ D -->|No| F[Escalar con evidencias y contexto]
+ E --> G[Documentar y cerrar]
+ F --> H[Registrar derivación y seguimiento]
+```
 
-## Seguridad
-No incluir contraseñas, códigos MFA, información personal ni datos corporativos reales. No inventar tiempos de SLA o permisos de herramientas.
+## 🧪 Casos
+| ID | Escenario | Documentación | Simulación interactiva |
+|---|---|---|---|
+| [TICKET-001](casos/TICKET-001-acceso-aplicacion.md) | Acceso a aplicación | Preparada | Pendiente |
+| TICKET-002 | Segundo caso por definir | Pendiente | Pendiente |
+
+## 🎯 Competencias demostrables
+Comunicación escrita · preguntas de diagnóstico · registro ITSM básico · manejo de prioridades · seguridad de datos · criterios de escalamiento.
+
+## 📌 Estado y criterios de cierre
+**En desarrollo.** Se cerrará este proyecto cuando se hayan realizado y documentado al menos dos simulaciones completas, con evaluación y decisión de cierre o escalamiento. **No se han validado resoluciones técnicas reales.**
+
+## 🔐 Buenas prácticas
+No solicitar ni publicar contraseñas, códigos MFA o datos personales. No inventar SLA, accesos ni resultados. Este repositorio es educativo, no oficial de NTT DATA.
