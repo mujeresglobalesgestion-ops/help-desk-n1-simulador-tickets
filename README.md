@@ -39,4 +39,4 @@ Comunicación escrita · preguntas de diagnóstico · registro ITSM básico · m
 **En desarrollo.** Se cerrará este proyecto cuando se hayan realizado y documentado al menos dos simulaciones completas, con evaluación y decisión de cierre o escalamiento. **No se han validado resoluciones técnicas reales.**
 
 ## 🔐 Buenas prácticas
-No solicitar ni publicar contraseñas, códigos MFA o datos personales. No inventar SLA, accesos ni resultados. Este repositorio es educativo, no oficial de NTT DATA.
+No solicitar ni publicar contraseñas, códigos MFA o datos personales. No inventar SLA, accesos ni resultados. Este repositorio es un proyecto educativo independiente, sin afiliación a ninguna empresa.
